@@ -179,10 +179,10 @@ main {
     font-weight: 700;
     font-size: 30px;
     color: #474747;
-    
+
 }
 
-.resume-item{
+.resume-item {
     margin-bottom: 30px;
     margin-top: 20px;
 
@@ -207,4 +207,59 @@ main {
     font-weight: 400;
     font-size: 16px;
     color: #757575;
+}
+
+/* Footer section styles */
+
+footer {
+    /* max-width: 1140px;
+    margin: 0 auto;
+    width: 1600px;
+    height: 780px;
+    background: #FFF8F3; */
+
+
+}
+
+.contact {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 230px;
+    /* max-width: 100%;
+    margin: 0 auto; */
+    /* width: 100%; */
+
+}
+
+.c-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 28px;
+}
+
+.c-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #474747;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.contact a{
+    padding-left: 15px;
+}
+
+/* .contact input{
+    margin-top: 24px;
+    border: 0;
+    width: 100%; */
+
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+    
 }
