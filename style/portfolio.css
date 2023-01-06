@@ -80,6 +80,11 @@ nav li {
 }
 
 /* main section */
+section {
+    margin-top: 130px;
+}
+
+
 main {
     max-width: 1140px;
     margin: 0 auto;
@@ -88,7 +93,7 @@ main {
 /* about section styles */
 
 .about {
-    margin-top: 130px;
+    /* margin-top: 130px; */
     background: #FFF8F3;
     border-radius: 10px;
     padding: 131px 156px;
@@ -98,7 +103,7 @@ main {
 
 .section-title {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 35px;
     color: #181818;
@@ -129,7 +134,7 @@ main {
 
 .what-i-do {
     /* text-align: center; */
-    margin-top: 130px;
+    /* margin-top: 130px; */
 }
 
 .skills-container {
@@ -160,5 +165,46 @@ main {
     font-weight: 400;
     font-size: 16px;
     color: #757575;
+
+}
+
+/* resume skyles */
+.resume-contant {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 24px;
+}
+
+.resume-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
     
+}
+
+.resume-item{
+    margin-bottom: 30px;
+    margin-top: 20px;
+
+}
+
+.resume .title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+
+}
+
+.resume .sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.resume .description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
 }
